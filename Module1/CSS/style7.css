@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+b {
+    padding-left: 20px;
+}
+.list {
+    color: white;
+    background-color: red;
+    
+}
+.list1 {
+    list-style-type: square;
+}
+.list2 {
+    list-style-type: circle;
+}
+.letter {
+    color: blue;
+}
