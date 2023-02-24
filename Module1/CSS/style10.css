@@ -1,0 +1,46 @@
+table {
+    border-collapse: collapse;
+}
+
+table,
+td,
+th {
+    border: 1px solid purple;
+    padding: 5px;
+}
+
+.first {
+    display: table-cell;
+    width: 95%;
+    background-color: #FF0000;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    height: 25, 25px;
+}
+
+.second {
+    width: 50px;
+    text-align: center;
+}
+
+.thirt {
+    background-color: #FFBBBB;
+    color: red;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.four {
+    width: 50%;
+}
+.sub-title {
+    color: red;
+    font-weight: bold;
+    font-size: inherit;
+}
+
+ol > li {
+    margin-bottom: 10px;
+}

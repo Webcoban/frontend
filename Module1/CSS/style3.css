@@ -1,0 +1,16 @@
+body{
+    background-color: #a06d21;
+    background-image:url(./../PICTURE/corona.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+
+h2 {
+    color: #fc0; 
+    text-align: center;
+}
+
+p {
+    color: #ffff;
+}

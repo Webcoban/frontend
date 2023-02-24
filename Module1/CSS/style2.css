@@ -1,0 +1,23 @@
+.title-first {
+    color: darkgreen; 
+    text-align: center;
+}
+
+.title-second {
+    color: blue;
+}
+
+h3 {
+    background-color: #fecffd; 
+    color: #f39; 
+    text-align: center;
+}
+
+div {
+    background-color: #ffffcc; 
+    text-align: center;
+}
+
+hr {
+    width: 150px;
+}

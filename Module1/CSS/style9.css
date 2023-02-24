@@ -25,3 +25,8 @@ th {
     background-color: #CC0033;
     color: white;
 }
+
+th:first-child {
+    width: 30%;
+    text-align: center;
+}

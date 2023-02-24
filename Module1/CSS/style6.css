@@ -1,0 +1,34 @@
+h1 {
+    color: red;
+    text-align: center;
+    border-style: double;
+    text-transform: uppercase;
+}
+
+h3 {
+    text-align: right;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+}
+
+.big-first-letter::first-letter {
+    font-weight: bold;
+    font-size: 50px;
+    color: red;
+}
+
+#second-part {
+    text-align: right;
+    height: 112px;
+}
+
+.first-name {
+    color: red;
+    font-weight: bold;
+}
+
+.second-name {
+    font-style: italic;
+    background-color: yellow;
+}

@@ -1,0 +1,21 @@
+body {
+    background-image: url(./../PICTURE/corona.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h2 {
+    color: #088;
+    text-align: center;
+}
+
+.text2 {
+    background-color: teal;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.text1 {
+    color: #088;
+}

@@ -1,0 +1,27 @@
+h3 {
+    color: green;
+    text-align: center;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    background-color: lightgreen;
+    border-collapse: collapse;
+    color: green;
+}
+
+table {
+    margin: auto;
+    width: 500px;
+}
+
+.name {
+    width: 90%;
+}
+
+.address {
+    width: 75%;
+}
+.phone {
+    width: 50%;
+}
