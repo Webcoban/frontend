@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercuse8</title>
+</head>
+<body>
+    <script>
+        let number = 135;
+        let count = 0;
+        for (let index = number; index > 0; index = Math.floor(index / 10)) {
+            let digit = index % 10;
+            if (digit % 2 == 0) {
+                count++;
+            }
+        }
+
+        if (count != 0) {
+            console.log("NO");
+        } else {
+            console.log("YES");
+        }
+    </script>
+</body>
+</html>

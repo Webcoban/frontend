@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercuse</title>
+    <title>Exercuse 9</title>
 </head>
 <body>
     <script>
-        let number = 17;
-        let counta = 0;
-        for (let i = 2; i < number; i++) {
-            if (number % i == 0) {
-                counta++;
-            }
+        let number = 12321;
+        let reverse = 0;
+        for(let i = number; i > 0; i = Math.floor(i / 10)){
+            let digit = i % 10;
+            reverse = reverse*10 + digit;
         }
-
-        if (counta == 0) {
-            console.log("YES");
-        } else {
+        if (reverse != number) {
             console.log("NO");
+        } else {
+            console.log("YES");
         }
     </script>
 </body>
